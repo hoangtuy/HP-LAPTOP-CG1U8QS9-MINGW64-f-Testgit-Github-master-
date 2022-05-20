@@ -1,0 +1,15 @@
+package oop.dev;
+
+public class Person {
+	//2 thuoc tinh
+	String name;
+	int old;
+	
+	//phuong thuc
+	void setName(String name) {
+		this.name=name;
+	}
+	String getName() {
+	 return this.name;
+	}
+}
